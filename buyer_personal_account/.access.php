@@ -1,0 +1,9 @@
+<?
+$PERM["favourites"]["G2"]="D";
+$PERM["favourites"]["G3"]="D";
+$PERM["favourites"]["G4"]="D";
+$PERM["favourites"]["G6"]="R";
+$PERM["favourites"]["G7"]="D";
+$PERM["favourites"]["G5"]="D";
+$PERM["favourites"]["*"]="D";
+?>

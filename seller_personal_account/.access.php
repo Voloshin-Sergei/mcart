@@ -1,0 +1,9 @@
+<?
+$PERM["my_ads"]["2"]="D";
+$PERM["my_ads"]["3"]="D";
+$PERM["my_ads"]["4"]="D";
+$PERM["my_ads"]["6"]="D";
+$PERM["my_ads"]["7"]="R";
+$PERM["my_ads"]["5"]="D";
+$PERM["my_ads"]["*"]="D";
+?>
