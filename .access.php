@@ -4,7 +4,6 @@ $PERM["ads"]["*"]="R";
 $PERM["bitrix"]["8"]="D";
 $PERM["bitrix"]["*"]="D";
 $PERM["about"]["8"]="W";
-$PERM["main"]["8"]="W";
 $PERM["seller_personal_account"]["2"]="D";
 $PERM["seller_personal_account"]["3"]="D";
 $PERM["seller_personal_account"]["4"]="D";
