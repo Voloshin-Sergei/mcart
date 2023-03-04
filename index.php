@@ -16,7 +16,7 @@ $APPLICATION->SetTitle("Главная страница");
 		"AJAX_OPTION_JUMP" => "N",
 		"AJAX_OPTION_STYLE" => "Y",
 		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "Y",
+		"CACHE_GROUPS" => "N",
 		"CACHE_TIME" => "36000000",
 		"CACHE_TYPE" => "A",
 		"CHECK_DATES" => "Y",
@@ -158,7 +158,7 @@ $APPLICATION->SetTitle("Главная страница");
 	".default", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"CACHE_GROUPS" => "Y",
+		"CACHE_GROUPS" => "N",
 		"CACHE_TIME" => "300",
 		"CACHE_TYPE" => "A",
 		"DETAIL_URL" => "",
@@ -504,24 +504,30 @@ $APPLICATION->SetTitle("Главная страница");
 		</div>
 	</div>
 	<? $APPLICATION->IncludeComponent(
-		"bitrix:news.line",
-		"",
-		array(
-			"ACTIVE_DATE_FORMAT" => "d.m.Y",
-			"CACHE_GROUPS" => "Y",
-			"CACHE_TIME" => "300",
-			"CACHE_TYPE" => "A",
-			"DETAIL_URL" => "",
-			"FIELD_CODE" => array("", ""),
-			"IBLOCKS" => array(),
-			"IBLOCK_TYPE" => "news",
-			"NEWS_COUNT" => "3",
-			"SORT_BY1" => "ACTIVE_FROM",
-			"SORT_BY2" => "SORT",
-			"SORT_ORDER1" => "DESC",
-			"SORT_ORDER2" => "ASC"
-		)
-	); ?>
+	"bitrix:news.line", 
+	".default", 
+	array(
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"CACHE_GROUPS" => "N",
+		"CACHE_TIME" => "300",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "",
+		"FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"IBLOCKS" => array(
+		),
+		"IBLOCK_TYPE" => "news",
+		"NEWS_COUNT" => "3",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+); ?>
 </div>
 <p>
 </p>

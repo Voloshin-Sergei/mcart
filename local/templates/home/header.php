@@ -40,7 +40,7 @@ $asset->addJs(SITE_TEMPLATE_PATH . "/js/main.js");
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?=LANGUAGE_ID?>">
 
 <head>
     <title><?$APPLICATION->ShowTitle()?></title>
