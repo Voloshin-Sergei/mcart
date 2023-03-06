@@ -51,13 +51,6 @@ $APPLICATION->SetTitle("Главная страница");
 
 
   <div class="container">
-    <div class="row mb-5">
-      <div class="col-12">
-        <div class="site-section-title">
-          <h2>New Properties for You</h2>
-        </div>
-      </div>
-    </div>
 
     <? $APPLICATION->IncludeComponent(
       "bitrix:news.line",
@@ -100,13 +93,7 @@ $APPLICATION->SetTitle("Главная страница");
 
 <div class="site-section">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-7 text-center mb-5">
-        <div class="site-section-title">
-          <h2>Our Services</h2>
-        </div>
-      </div>
-    </div>
+
 
     <? $APPLICATION->IncludeComponent(
       "bitrix:news.line",
@@ -143,41 +130,34 @@ $APPLICATION->SetTitle("Главная страница");
 </div>
 <div class="site-section bg-light">
   <div class="container">
-    <div class="row justify-content-center mb-5">
-      <div class="col-md-7 text-center">
-        <div class="site-section-title">
-          <h2>Our Blog</h2>
-        </div>
-      </div>
-    </div>
 
     <? $APPLICATION->IncludeComponent(
-      "bitrix:news.line",
-      "blog",
-      array(
-        "ACTIVE_DATE_FORMAT" => "f j, Y",
-        "CACHE_GROUPS" => "Y",
-        "CACHE_TIME" => "300",
-        "CACHE_TYPE" => "A",
-        "DETAIL_URL" => "",
-        "FIELD_CODE" => array(
-          0 => "NAME",
-          1 => "PREVIEW_TEXT",
-          2 => "PREVIEW_PICTURE",
-          3 => "",
-        ),
-        "IBLOCKS" => array(
-        ),
-        "IBLOCK_TYPE" => "news",
-        "NEWS_COUNT" => "3",
-        "SORT_BY1" => "ACTIVE_FROM",
-        "SORT_BY2" => "SORT",
-        "SORT_ORDER1" => "ASC",
-        "SORT_ORDER2" => "ASC",
-        "COMPONENT_TEMPLATE" => "blog"
-      ),
-      false
-    ); ?>
+	"bitrix:news.line", 
+	"blog", 
+	array(
+		"ACTIVE_DATE_FORMAT" => "f j, Y",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "300",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "",
+		"FIELD_CODE" => array(
+			0 => "NAME",
+			1 => "PREVIEW_TEXT",
+			2 => "PREVIEW_PICTURE",
+			3 => "",
+		),
+		"IBLOCKS" => array(
+		),
+		"IBLOCK_TYPE" => "news",
+		"NEWS_COUNT" => "3",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "ASC",
+		"SORT_ORDER2" => "ASC",
+		"COMPONENT_TEMPLATE" => "blog"
+	),
+	false
+); ?>
 
   </div>
 
