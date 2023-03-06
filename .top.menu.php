@@ -9,28 +9,28 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Объявления", 
-		"/ads/", 
+		"ads/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"О сервисе", 
-		"/about/", 
+		"about/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Личный кабинет продавца", 
-		"/seller_personal_account/", 
+		"seller_personal_account/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Личный кабинет покупателя", 
-		"/buyer_personal_account/", 
+		"buyer_personal_account/", 
 		Array(), 
 		Array(), 
 		"" 

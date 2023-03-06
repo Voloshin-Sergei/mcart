@@ -2,15 +2,36 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Контакты", 
-		"contacts/", 
+		"Главная страница", 
+		"/index.php", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Авторизация", 
-		"login/", 
+		"Объявления", 
+		"/ads/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О сервисе", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Личный кабинет продавца", 
+		"/seller_personal_account/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Личный кабинет покупателя", 
+		"/buyer_personal_account/", 
 		Array(), 
 		Array(), 
 		"" 
