@@ -162,7 +162,5 @@ $APPLICATION->SetTitle("Главная страница");
   </div>
 
 </div>
-<p>
-</p>
-<br>
+
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

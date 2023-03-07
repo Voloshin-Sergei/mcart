@@ -1,4 +1,3 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 <?
 $aMenuLinks = Array(
 	Array(
@@ -27,14 +26,14 @@ $aMenuLinks = Array(
 		"/seller_personal_account/", 
 		Array(), 
 		Array(), 
-		"" 
+		"CSite::InGroup(array(1,7))" 
 	),
 	Array(
 		"Личный кабинет покупателя", 
 		"/buyer_personal_account/", 
 		Array(), 
 		Array(), 
-		"" 
+		"CSite::InGroup(array(1,6))" 
 	)
 );
 ?>
